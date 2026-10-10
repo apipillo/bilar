@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propuesta Lisea Control</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; }
+        .slide { width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 60px; box-sizing: border-box; page-break-after: always; position: relative; }
+        .slide-dark { background-color: #2a2f6b; color: white; }
+        .slide-light { background-color: white; color: #333; }
+        h1 { font-size: 3em; margin-bottom: 10px; }
+        h2 { font-size: 2.2em; margin-bottom: 30px; color: #2a2f6b; }
+        .slide-dark h2 { color: #a5b4fc; }
+        p, li { font-size: 1.2em; line-height: 1.6; }
+        ul { list-style: none; padding: 0; }
+        li { margin-bottom: 15px; display: flex; align-items: flex-start; }
+        .icon { margin-right: 15px; font-size: 1.5em; }
+        .logo-placeholder { text-align: center; margin-bottom: 30px; font-size: 2em; font-weight: bold; letter-spacing: 2px; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+        .footer { position: absolute; bottom: 20px; right: 40px; font-size: 0.9em; opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+    <!-- Diapositiva 1: Portada -->
+    <div class="slide slide-dark" style="text-align: center; justify-content: center;">
+        <!-- Aquí iría tu logo -->
+        <div class="logo-placeholder">[ LOGO GRUPO LISEA ]</div>
+        <h1>Lisea Control</h1>
+        <p style="font-size: 1.5em; color: #a5b4fc;">Sistema Integral de Control de Asistencia y Gestión Operativa</p>
+        <p style="margin-top: 50px; font-size: 1em; opacity: 0.8;">Propuesta de Transformación Digital | Octubre 2026</p>
+    </div>
+
+    <!-- Diapositiva 2: El Desafío -->
+    <div class="slide slide-light">
+        <h2>Los retos de gestionar personal en seguridad privada</h2>
+        <div class="grid-2">
+            <ul>
+                <li><span class="icon">📍</span> <div><strong>Geolocalización:</strong> Personal desplegado en múltiples sitios. Difícil verificar presencia real.</div></li>
+                <li><span class="icon">⏰</span> <div><strong>Turnos 24/7:</strong> Cuadrantes complejos, rotaciones y coberturas de última hora.</div></li>
+                <li><span class="icon">📋</span> <div><strong>Rondas y Tareas:</strong> Falta de evidencia en tiempo real de las rondas de vigilancia.</div></li>
+                <li><span class="icon">⚖️</span> <div><strong>Cumplimiento:</strong> Riesgo de sanciones por registros horarios manuales o incorrectos.</div></li>
+            </ul>
+            <div style="text-align: center; background: #e2e8f0; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                <p>[Imagen: Guardia de seguridad con smartphone o centro de control]</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 3: La Solución -->
+    <div class="slide slide-light">
+        <h2>Una herramienta. Cero caos operativo.</h2>
+        <div class="grid-2">
+            <div style="text-align: center; background: #e2e8f0; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                <p>[Imagen: Mockup de app móvil con mapa y fichaje]</p>
+            </div>
+            <ul>
+                <li><span class="icon">📱</span> <div><strong>App Móvil para Guardias:</strong> Fichaje, rondas, reportes y comunicación.</div></li>
+                <li><span class="icon">💻</span> <div><strong>Panel Web para Supervisores:</strong> Planificación de turnos, auditoría y nómina.</div></li>
+                <li><span class="icon">🎯</span> <div><strong>Adaptada a tu realidad:</strong> Diseñada específicamente para las necesidades de Grupo Lisea.</div></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Diapositiva 4: Control Horario -->
+    <div class="slide slide-dark">
+        <h2>Módulo 1: Control Horario y Geofencing</h2>
+        <ul>
+            <li><span class="icon">🛰️</span> <div><strong>Fichaje con GPS:</strong> Validación de que el guardia está en el sitio correcto.</div></li>
+            <li><span class="icon">🔲</span> <div><strong>Checkpoints QR/NFC:</strong> Escaneo en puntos de control para certificar rondas.</div></li>
+            <li><span class="icon">🚨</span> <div><strong>Botón SOS:</strong> Emergencias conectadas al centro de control.</div></li>
+            <li><span class="icon">📶</span> <div><strong>Modo Offline:</strong> Registro local sin señal, sincronización automática.</div></li>
+        </ul>
+    </div>
+
+    <!-- Diapositiva 5: Turnos -->
+    <div class="slide slide-light">
+        <h2>Módulo 2: Gestión de Cuadrantes y Turnos</h2>
+        <div class="grid-2">
+            <ul>
+                <li><span class="icon">🗓️</span> <div><strong>Planificación visual:</strong> Asigna turnos con "arrastrar y soltar".</div></li>
+                <li><span class="icon">⚡</span> <div><strong>Publicación instantánea:</strong> El guardia recibe su horario al instante.</div></li>
+                <li><span class="icon">🔄</span> <div><strong>Gestión de reemplazos:</strong> Cubre ausencias en minutos.</div></li>
+                <li><span class="icon">⚠️</span> <div><strong>Alertas de conflicto:</strong> Evita dobles asignaciones.</div></li>
+            </ul>
+            <div style="text-align: center; background: #e2e8f0; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                <p>[Imagen: Captura de calendario de turnos colorido]</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 6: Tareas -->
+    <div class="slide slide-light">
+        <h2>Módulo 3: Tareas y Reporte de Incidencias</h2>
+        <div class="grid-2">
+            <div style="text-align: center; background: #e2e8f0; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                <p>[Imagen: Supervisor con tablet o guardia reportando]</p>
+            </div>
+            <ul>
+                <li><span class="icon">✅</span> <div><strong>Checklists digitales:</strong> Tareas asignadas por turno.</div></li>
+                <li><span class="icon">📸</span> <div><strong>Reporte con evidencia:</strong> Fotos y notas de voz en tiempo real.</div></li>
+                <li><span class="icon">📚</span> <div><strong>Historial del sitio:</strong> Todo queda documentado.</div></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Diapositiva 7: Ausencias -->
+    <div class="slide slide-dark">
+        <h2>Módulo 4: Ausencias y Cumplimiento Normativo</h2>
+        <ul>
+            <li><span class="icon">📝</span> <div><strong>Solicitudes digitales:</strong> Vacaciones y permisos desde la app.</div></li>
+            <li><span class="icon">🔔</span> <div><strong>Flujos de aprobación:</strong> Notificaciones automáticas a supervisores.</div></li>
+            <li><span class="icon">⏳</span> <div><strong>Alertas de vencimiento:</strong> Avisos sobre licencias de seguridad.</div></li>
+            <li><span class="icon">🔍</span> <div><strong>Trazabilidad total:</strong> Historial auditable para inspecciones.</div></li>
+        </ul>
+    </div>
+
+    <!-- Diapositiva 8: Beneficios -->
+    <div class="slide slide-light">
+        <h2>Beneficios para Grupo Lisea</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div style="background: #f8fafc; padding: 20px; border-left: 5px solid #2a2f6b; border-radius: 5px;">
+                <h3>Operativo</h3>
+                <p>Visibilidad en tiempo real. Reducción del tiempo de respuesta.</p>
+            </div>
+            <div style="background: #f8fafc; padding: 20px; border-left: 5px solid #2a2f6b; border-radius: 5px;">
+                <h3>Administrativo</h3>
+                <p>Ahorro de horas en nóminas. Eliminación de errores manuales.</p>
+            </div>
+            <div style="background: #f8fafc; padding: 20px; border-left: 5px solid #2a2f6b; border-radius: 5px;">
+                <h3>Cumplimiento</h3>
+                <p>Registro auditable. Protección ante sanciones laborales.</p>
+            </div>
+            <div style="background: #f8fafc; padding: 20px; border-left: 5px solid #2a2f6b; border-radius: 5px;">
+                <h3>Financiero</h3>
+                <p>Optimización de costes. Control exacto de horas extra.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 9: Próximos Pasos -->
+    <div class="slide slide-dark" style="text-align: center; justify-content: center;">
+        <h2>¿Comenzamos la transformación digital?</h2>
+        <p style="font-size: 1.5em; margin: 20px 0;">Demostración personalizada | Prueba piloto | Propuesta de implementación</p>
+        <div style="margin-top: 50px;">
+            <p><strong>Contacto:</strong> [Tu Nombre / Tu Empresa]</p>
+            <p>[Tu Teléfono] | [Tu Email]</p>
+        </div>
+    </div>
+
+</body>
+</html>
